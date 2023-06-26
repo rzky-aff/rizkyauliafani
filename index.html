@@ -138,72 +138,6 @@
 
     <!-- Finish Projects -->
 
-    <!-- Gallery -->
-
-    <section id="gallery">
-      <div class="container">
-        <div class="row text-center mb-3">
-          <div class="col">
-            <h2>Gallery</h2>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-md-3">
-            <a href="">
-              <img src="img/gallery/thumbnail/gallery1.jpeg" alt="gambar 1" class="img-fluid" />
-            </a>
-          </div>
-          <div class="col-md-3">
-            <a href="">
-              <img src="img/gallery/thumbnail/gallery2.jpeg" alt="gambar 2" class="img-fluid gallery-img" />
-            </a>
-          </div>
-          <div class="col-md-3">
-            <a href="">
-              <img src="img/gallery/thumbnail/gallery3.jpeg" alt="gambar 3" class="img-fluid gallery-img" />
-            </a>
-          </div>
-          <div class="col-md-3">
-            <a href="">
-              <img src="img/gallery/thumbnail/gallery4.jpeg" alt="gambar 4" class="img-fluid gallery-img" />
-            </a>
-          </div>
-          <div class="col-md-3">
-            <a href="">
-              <img src="img/gallery/thumbnail/gallery5.jpeg" alt="gambar 5" class="img-fluid gallery-img" />
-            </a>
-          </div>
-          <div class="col-md-3">
-            <a href="">
-              <img src="img/gallery/thumbnail/gallery6.jpeg" alt="gambar 6" class="img-fluid gallery-img" />
-            </a>
-          </div>
-          <div class="col-md-3">
-            <a href="">
-              <img src="img/gallery/thumbnail/gallery7.jpeg" alt="gambar 7" class="img-fluid gallery-img" />
-            </a>
-          </div>
-          <div class="col-md-3">
-            <a href="">
-              <img src="img/gallery/thumbnail/gallery8.jpeg" alt="gambar 8" class="img-fluid gallery-img" />
-            </a>
-          </div>
-          <div class="col-md-3">
-            <a href="">
-              <img src="img/gallery/thumbnail/gallery9.jpeg" alt="gambar 9" class="img-fluid gallery-img" />
-            </a>
-          </div>
-          <div class="col-md-3">
-            <a href="">
-              <img src="img/gallery/thumbnail/gallery10.jpeg" alt="gambar 10" class="img-fluid gallery-img" />
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Finish Gallery -->
-
     <!-- Contact -->
 
     <section id="contact">
@@ -256,7 +190,7 @@
     <!-- Footer -->
 
     <footer class="text-center pb-5" style="background-color: #00ffff">
-      <p>Created with <i class="bi bi-heart-fill text-danger"></i> by <a href="https://www.instagram.com/rzkyyaf_/" class="text-black fw-bold">Rizky Aulia Fani</a></p>
+      <p>Created with <i class="bi bi-heart-fill text-danger"></i> by <a href="https://www.instagram.com/rzkyyaf_/" target="_blank" class="text-black fw-bold">Rizky Aulia Fani</a></p>
     </footer>
 
     <!-- Finish Footer -->
@@ -265,13 +199,6 @@
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-      const galleryImage = document.querySelectorAll(".gallery-img");
-
-      galleryImage.forEach((img, i) => {
-        img.dataset.aos = "fade-down";
-        img.dataset.aosDelay = i * 100;
-        img.dataset.aosDuration = 1000;
-      });
       AOS.init();
     </script>
 
